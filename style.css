@@ -22,8 +22,8 @@
   body {
     background: black;
   }
-  div,p,h1,h2,h3,h4,h5{
-      background : red;
+  div,p,h1,h2,h3,h4,h5,ul{
+      background : black;
   }
  
   
