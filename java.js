@@ -8,7 +8,7 @@ function loadImage(src, callback) {
 }
 
 function imagePath(frameNumber, animation) {
-    return "C:/Web_development_101_f7_full_stack/images/" + animation+ "/" + frameNumber + ".png";
+    return "/images/" + animation+ "/" + frameNumber + ".png";
 }
  
 let frames = {
