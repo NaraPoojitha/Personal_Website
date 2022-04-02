@@ -1,0 +1,63 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  p {
+
+    font-size: 25px;
+    font-style: oblique;
+  }
+  
+  body {
+    background: black;
+  }
+  
+  div {
+    background: rgb(139,0,0);
+  }
+  ul{
+    font-size: 25px;
+
+  }
+  h1 {
+    background: #FF4500;
+    font-size: 40px;
+    font-style: oblique;
+  }
+  h4,h3,h2,h5,h6{
+    font-size: 30px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  main {
+    background: hsl(39,100%,65%);
+  }
