@@ -22,7 +22,9 @@
   body {
     background: black;
   }
-  
+  div{
+      background : red;
+  }
  
   
 
